@@ -1,0 +1,33 @@
+.main{
+    width: 370px;
+    height: 290px;
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: white;
+    padding-inline: 16px;
+    padding-block: 24px ;
+}
+body{
+    width: 100vh;
+    height: 1080px; 
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    background-color: #F3F4F6;
+}
+.header_title{
+    font-size: 20px;
+    text-align: center;
+}
+.input_container{
+    display: flex;
+    gap: 6px   ;
+    justify-content: space-between;
+}
+.add_button{
+    background-color: #3C82F6;
+    color: white;
+padding-inline: 16px;
+padding-block: 8px;
+border-radius: 6px;
+}
