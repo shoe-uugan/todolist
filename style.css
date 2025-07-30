@@ -1,21 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 .main{
     width: 370px;
-    height: 290px;
+    height: 350px;
+    max-height: 400px;
+    /* height: inherit; */
     border: 1px solid black;
     border-radius: 6px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     padding-inline: 16px;
     padding-block: 24px ;
 }
 body{
-    width: 100vh;
-    height: 1080px; 
+    width: 150vh;
+    height: 70vh; 
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     margin-top: 100px;
     background-color: #F3F4F6;
+    
+}
+.task_container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-top: 20px;
+    height: 190px;
 }
 .header_title{
+     font-family: "Inter", sans-serif;
+    font-weight: 600;
     font-size: 20px;
     text-align: center;
 }
@@ -27,7 +41,45 @@ body{
 .add_button{
     background-color: #3C82F6;
     color: white;
-padding-inline: 16px;
-padding-block: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 border-radius: 6px;
+width: 59px;
+height: 40px;
+}
+.input{
+    width: 280px;
+    height: 34px;
+    border-radius: 6px;
+    border-color: #E4E4E7;
+}
+._task{
+      font-family: "Inter", sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+display: flex;
+justify-content: center;
+
+
+}
+.item_container{
+    display: flex;
+    gap: 10px   ;
+    background-color: rgb(233, 233, 233);
+    border-radius: 6px;
+    height: 30px;
+    align-items: center;
+    padding: 0 7px;
+}
+.delete_all{
+
+    background-color: #F87171;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    width: 80px;
+    height: 30px;
 }
